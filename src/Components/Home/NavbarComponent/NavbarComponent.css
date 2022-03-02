@@ -1,0 +1,118 @@
+.header-nav {
+  font: 13px "opensans-bold", sans-serif;
+  background: #151515;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+  height: 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+}
+.content-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.content-nav a {
+  color: whitesmoke;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5px;
+  padding-left: 10px;
+}
+.logo-container img {
+  width: 120px;
+}
+
+.nav-options {
+  padding-left: 25px;
+  padding-top: 20px;
+  right: 20px;
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-gap: 25px;
+  list-style-type: none;
+  position: absolute;
+}
+.mobile-option {
+  display: none;
+}
+.option :hover {
+  color: gold;
+}
+.social-container {
+  color: white;
+  padding-top: 20px;
+  list-style-type: none;
+  position: fixed;
+  right: 500px;
+  display: flex;
+}
+
+.navbar-socials .social-links {
+  font-size: 20px;
+  cursor: pointer;
+}
+.navbar-socials .social-links span {
+  display: inline-block;
+  padding-left: 5px;
+}
+.navbar-socials .social-links span:hover {
+  color: gold;
+}
+.mobile-menu {
+  display: none;
+}
+@media (max-width: 800px) {
+  .header-nav {
+    padding: 0px 10px;
+  }
+  .nav-options {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    top: 35px;
+    opacity: 0;
+    transition: all 0.5s ease;
+    flex-direction: column;
+    list-style-type: none;
+    grid-gap: 0px;
+  }
+  .nav-options.active {
+    background: #151515;
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+    align-content: center;
+    padding-left: 0px;
+  }
+  .logo-container img {
+    width: 90px;
+  }
+
+  .menu-icon {
+    width: 45px;
+    height: 45px;
+  }
+  .option {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vw;
+  }
+
+  .social-container {
+    display: none;
+  }
+}
+.mobile-menu {
+  display: block;
+}

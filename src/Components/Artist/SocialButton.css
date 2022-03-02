@@ -1,0 +1,54 @@
+.social-button {
+  width: fit-content;
+  height: fit-content;
+  margin-top: 10px;
+}
+
+.social-button a {
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  font-size: 12px;
+  color: whitesmoke;
+  text-decoration: none;
+  padding: 2px 5px;
+  border: 1px solid whitesmoke;
+  font-weight: bold;
+  border-radius: 20px 20px;
+}
+
+.social-button a:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -10px;
+  width: 0%;
+  background: #111;
+  height: 100%;
+  z-index: -1;
+  transition: width 0.3s ease-in-out;
+  transform: skew(-25deg);
+  transform-origin: right;
+}
+
+.social-button a:hover:after {
+  width: 150%;
+  left: -10px;
+  transform-origin: left;
+}
+.social-button .icons {
+  padding-left: 2px;
+  padding-right: 2px;
+}
+@media only screen and (max-width: 800px) {
+  .social-button a {
+    font-size: 10px;
+    padding: 1px 3px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .social-button a {
+    font-size: 10px;
+    padding: 0px 2px;
+  }
+}

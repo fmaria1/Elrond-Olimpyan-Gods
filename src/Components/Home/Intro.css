@@ -1,0 +1,97 @@
+header .intro-container {
+  padding-top: 120px;
+}
+header .intro-text h1 {
+  font: 80px/1.1em "opensans-bold", sans-serif;
+  color: whitesmoke;
+  letter-spacing: -2px;
+  margin: 0 auto 18px auto;
+  padding-bottom: 30px;
+}
+header .intro-text h3 {
+  font: 18px "librebaskerville-regular", serif;
+  color: whitesmoke;
+  margin: 0 auto;
+  width: 100%;
+}
+header .intro-text h3 span,
+header .intro-text h3 a {
+  color: whitesmoke;
+}
+header .intro-text hr {
+  width: 60%;
+  margin: 18px auto 24px auto;
+  border-color: whitesmoke;
+}
+header .mint-button {
+  background-image: linear-gradient(144deg, white, gold, white);
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: whitesmoke;
+  font-family: Phantomsans, sans-serif;
+  font-size: 30px;
+  width: 150px;
+  padding: 25px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+header .mint-button span {
+  color: black;
+}
+.buy-functionality {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mint-button:active,
+.mint-button:hover {
+  outline: 0;
+}
+
+@media (max-width: 1000px) {
+  header .intro-text h1 {
+    font: 50px "opensans-bold", sans-serif;
+    padding-bottom: 20px;
+  }
+  header .intro-text h3 {
+    font: 15px "librebaskerville-regular", serif;
+    width: 80%;
+  }
+  header .mint-button {
+    font-size: 20px;
+    width: 100px;
+    padding: 20px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  header .intro-text h1 {
+    font: 40px "opensans-bold", sans-serif;
+  }
+  header .intro-text h3 {
+    font: 13px "librebaskerville-regular", serif;
+    width: 75%;
+  }
+  header .mint-button {
+    font-size: 20px;
+    width: 90px;
+    padding: 15px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  header .intro-text h1 {
+    font: 30px "opensans-bold", sans-serif;
+  }
+  header .intro-text h3 {
+    font: 12px "librebaskerville-regular", serif;
+    width: 70%;
+  }
+  header .mint-button {
+    font-size: 17px;
+    width: 80px;
+    padding: 13px;
+  }
+}

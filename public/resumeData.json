@@ -1,0 +1,107 @@
+{
+  "main": {
+    "name": "Elrond Olympian Gods",
+    "intro_description": "Ten of the most representative greek gods from Olympus Mountain arised to conquer NFT Elrond marketplace.",
+    "quote": " THE DICE OF ZEUS ALWAYS FALL LUCKILY.",
+    "buy_button": "https://google.com",
+    "menu": {
+      "menu_1": "Home",
+      "menu_2": "Roadmap",
+      "menu_3": "Utility",
+      "menu_4": "Use of funds",
+      "menu_5": "Faq"
+    },
+    "socials": {
+      "instagram": "https://www.instagram.com/eolympiangods",
+      "twitter": "https://twitter.com/EOlympianGods",
+      "discord": "https://discord.gg/UNJK7hQ2",
+      "telegram": "https://t.me/+IcL5iL6ZWGYwYzY8"
+    },
+    "footer": {
+      "copyright": "Copyright 2022 Elrond Olympian Gods",
+      "design": "Developed by",
+      "dev_name": "Maria Frentescu",
+      "dev_link": "https://www.instagram.com/maria.frentescu/"
+    }
+  },
+  "about": {
+    "title": "About project",
+    "project_desc": "Our collection includes 10 of the most famous gods from greek mithology. Their army is compound from 10.000 NFTs and they become our allies on the Elrond network. With a strong roadmap and one well defined purpose, our NFTs will rule the NFT marketplace. The NFTs will be listed for mint in different phases on TrustMarket."
+  },
+  "roadmap": {
+    "title": "Roadmap",
+    "q1": "Q1 2022",
+    "q1_1": "COMMUNITY ACTIVATION",
+    "q1_2": "MARKETING",
+    "q1_3": "GIVEAWAY & CONTESTS",
+    "q1_4": "DISCORD & TELEGRAM",
+    "q2": "Q2 2022",
+    "q2_1": "LAUCHING WEBSITE",
+    "q2_2": "VERIFY COLLECTION ON NFT MARKETPLACE",
+    "q2_3": "NFT MINTING (PHASE 1)",
+    "q2_4": "SOLD OUT GIVEAWAY",
+    "q2_5": "PARTERSHIP & COLABORATIONS",
+    "q3": "Q3 2022",
+    "q4": "TBA"
+  },
+  "utility": {
+    "title": "Utility",
+    "card1": {
+      "title": "Gaming",
+      "desc": "The main purpose is to help you enter in gamming world with our NFTs."
+    },
+    "card2": {
+      "title": "Charity",
+      "desc": "Using our NFTs to help children without any financial support by providing them the necessary devices in order to have acces to a better school education."
+    },
+    "card3": {
+      "title": "Partnerships",
+      "desc": "We will collaborate with other NFT projects to grow our collection`s value."
+    },
+    "card4": {
+      "title": "Future projects",
+      "desc": "This part will be decided based on our members involvement and demand. We will create a Venture Capital Community to get allocation in future crypto projects."
+    }
+  },
+
+  "useOfFunds": {
+    "title": "Use of funds"
+  },
+  "artist": {
+    "title": "Our artist",
+    "artist_name": "Larisa",
+    "artist_desc": "Passionate about art (painting, graphic design, digital painting), NFTs, reading and video games. For the Horde!",
+    "artist_link": "https://twitter.com/ZionHQ",
+    "artist_social": "Twitter"
+  },
+  "faq": {
+    "title": "FAQ",
+    "questions": {
+      "question1": {
+        "title": "What is the collection's supply?",
+        "content": "The collection will contain 10.000 unique NFTs."
+      },
+      "question2": {
+        "title": "On which blockchain the collection will be developed?",
+        "content": "The collection will be implemented on Elrond Blockchain."
+      },
+      "question3": {
+        "title": "Where can I buy ElrondOLympianGods NFTs?",
+        "content": "You can mint our NFTs on TrustMarket using the links from our site."
+      },
+
+      "question4": {
+        "title": "What is the mint price?",
+        "content": "First minting price will be 0.3 EGLD."
+      },
+      "question5": {
+        "title": "When can I mint them?",
+        "content": "TBA"
+      },
+      "question6": {
+        "title": "Do you have Giveaways?",
+        "content": "Yes, we prepared a lot of giveaways for you and a lot of surprises. Follow us on our social media channels and accounts."
+      }
+    }
+  }
+}

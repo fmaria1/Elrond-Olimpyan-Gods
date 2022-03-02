@@ -1,0 +1,115 @@
+.profile-card {
+  width: 600px;
+  height: 300px;
+  border-radius: 50px;
+  box-shadow: 0 22px 70px 4px rgba(0, 0, 0, 0.56), 0 0 0 1px rgba(0, 0, 0, 0.3);
+  background: black;
+  display: grid;
+  grid-template-columns: 40% auto;
+  color: white;
+  align-items: center;
+  will-change: transform;
+  transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.profile-card:hover {
+  transform: scale(1.1);
+  box-shadow: 0 32px 80px 14px rgba(0, 0, 0, 0.36), 0 0 0 1px rgba(0, 0, 0, 0.3);
+}
+.profile-card .card-avatar {
+  display: grid;
+  place-items: center;
+}
+.profile-card .card-avatar img {
+  border-radius: 20px;
+  width: 200px;
+}
+
+.card-details .profile-name {
+  margin: 0;
+  padding: 0;
+  color: whitesmoke;
+  line-height: 20px;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.card-details .profile-link {
+  margin-top: 10px;
+}
+
+.card-details .profile-link td {
+  padding-right: 5px;
+}
+
+.card-details .profile-desc {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+.profile-desc span {
+  font-size: 15px;
+  line-height: 25px;
+}
+@media only screen and (max-width: 800px) {
+  .profile-card {
+    width: 500px;
+    height: 250px;
+  }
+  .profile-card .card-avatar img {
+    width: 150px;
+  }
+  .card-details .profile-name {
+    font-size: 25px;
+  }
+  .profile-desc span {
+    font-size: 13px;
+    line-height: 25px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .profile-card {
+    width: 400px;
+    height: 200px;
+  }
+  .profile-card .card-avatar img {
+    width: 120px;
+  }
+  .card-details .profile-name {
+    font-size: 20px;
+  }
+  .card-details .profile-link {
+    margin-top: 5px;
+  }
+  .card-details .profile-desc {
+    margin-top: 5px;
+  }
+  .profile-desc span {
+    font-size: 13px;
+    line-height: 15px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .profile-card {
+    width: 300px;
+    height: 150px;
+    border-radius: 30px;
+  }
+  .profile-card .card-avatar img {
+    width: 100px;
+  }
+  .card-details .profile-name {
+    font-size: 15px;
+  }
+  .card-details .profile-link {
+    margin-top: 0px;
+  }
+  .card-details .profile-desc {
+    margin-top: 0px;
+  }
+  .profile-desc span {
+    font-size: 12px;
+    line-height: 15px;
+  }
+}

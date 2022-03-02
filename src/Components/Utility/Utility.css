@@ -1,0 +1,112 @@
+#utility {
+  padding-top: 80px;
+}
+.utility-title {
+  font: 50px/1.1em "opensans-bold", sans-serif;
+  color: whitesmoke;
+  letter-spacing: -2px;
+  margin: 0 auto 18px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.utility-content {
+  height: 100%;
+  width: 100%;
+  padding-top: 80px;
+  display: grid;
+  place-content: center;
+}
+.utility-content .cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  pointer-events: none;
+}
+.utility-content .card {
+  max-width: 300px;
+  color: #fff;
+  padding: 25px;
+  border-radius: 20px;
+  background-color: #151515;
+  pointer-events: auto;
+  transform: scale(1);
+  opacity: 1;
+  transition: all 150ms ease-in-out;
+  flex-direction: column;
+  border: 1px solid gold;
+}
+.utility-content .card .card-title {
+  font-size: 25px;
+  color: whitesmoke;
+}
+.utility-content .card .card-desc {
+  font-size: 15px;
+}
+.utility-content .card .card-icons {
+  font-size: 20px;
+  padding-right: 5px;
+}
+.utility-content .card:nth-child(even) {
+  transform: translateY(8px);
+}
+.utility-content .card:nth-child(n) {
+  transform: rotate(-5deg);
+}
+.cards:hover > .card:hover {
+  transform: scale(1.15);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  z-index: 10;
+}
+.cards:hover > .card:not(:hover) {
+  opacity: 0.8;
+}
+@media only screen and (max-width: 900px) {
+  .utility-content .card {
+    max-width: 250px;
+  }
+  .utility-content .card .card-title {
+    font-size: 20px;
+  }
+  .utility-content .card .card-desc {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .utility-content .card .card-icons {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .utility-content .card {
+    max-width: 210px;
+  }
+  .utility-content .card .card-title {
+    font-size: 17px;
+  }
+  .utility-content .card .card-desc {
+    font-size: 12px;
+    line-height: 17px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .utility-title {
+    font: 30px "opensans-bold", sans-serif;
+  }
+  .utility-content {
+    padding-top: 50px;
+  }
+  .utility-content .card {
+    max-width: 150px;
+    padding: 15px;
+  }
+  .utility-content .card .card-title {
+    font-size: 12px;
+  }
+  .utility-content .card .card-desc {
+    font-size: 10px;
+    line-height: 10px;
+  }
+  .utility-content .card .card-icons {
+    font-size: 10px;
+  }
+}

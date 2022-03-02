@@ -1,0 +1,27 @@
+#faq {
+  padding-top: 80px;
+}
+.faq-title {
+  font: 50px/1.1em "opensans-bold", sans-serif;
+  color: whitesmoke;
+  letter-spacing: -2px;
+  margin: 0 auto 18px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.faq-content {
+  padding-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 480px) {
+  .faq-title {
+    font: 30px "opensans-bold", sans-serif;
+  }
+  .faq-content {
+    padding-top: 50px;
+  }
+}

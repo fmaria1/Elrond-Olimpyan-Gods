@@ -1,0 +1,83 @@
+footer {
+  padding-top: 50px;
+  margin-bottom: 48px;
+  color: whitesmoke;
+  font-size: 14px;
+  text-align: center;
+  position: relative;
+}
+
+footer a,
+footer a:visited {
+  color: white;
+}
+footer a:hover,
+footer a:focus {
+  color: #fff;
+}
+
+/* copyright */
+footer .copyright {
+  margin: 0;
+  padding: 0;
+}
+footer .copyright li {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  line-height: 24px;
+}
+
+footer .copyright li:before {
+  content: "\2022";
+  padding-left: 10px;
+  padding-right: 10px;
+  color: whitesmoke;
+}
+footer .copyright li:first-child:before {
+  display: none;
+}
+footer .social-links {
+  margin: 18px 0 30px 0;
+  padding: 0px;
+  cursor: pointer;
+}
+footer .social-links {
+  font-size: 30px;
+  color: whitesmoke;
+}
+footer .social-links span:hover {
+  color: gold;
+}
+footer .social-links span {
+  display: inline-block;
+  padding-left: 15px;
+}
+#go-top {
+  position: absolute;
+  top: -24px;
+  left: 50%;
+  margin-left: -30px;
+}
+#go-top a {
+  text-decoration: none;
+  border: 0 none;
+  display: block;
+  width: 60px;
+  height: 60px;
+  background-color: #525252;
+
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+
+  color: #fff;
+  font-size: 21px;
+  line-height: 60px;
+  border-radius: 100%;
+}
+#go-top a:hover {
+  background-color: gold;
+}

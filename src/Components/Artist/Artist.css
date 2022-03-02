@@ -1,0 +1,32 @@
+#artist {
+  padding-top: 80px;
+}
+.artist-title {
+  font: 50px/1.1em "opensans-bold", sans-serif;
+  color: whitesmoke;
+  letter-spacing: -2px;
+  margin: 0 auto 18px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.artist-content {
+  padding-top: 80px;
+  margin: 0;
+  display: grid;
+  place-items: center;
+
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media only screen and (max-width: 480px) {
+  .artist-title {
+    font: 30px "opensans-bold", sans-serif;
+  }
+  .artist-content {
+    padding-top: 50px;
+  }
+}

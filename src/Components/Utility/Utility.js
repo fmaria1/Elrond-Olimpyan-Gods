@@ -3,7 +3,12 @@ import { Slide, Fade } from "react-reveal";
 import GreekLeafs from "../../Constants/GreekLeafs";
 import greekLeft from "../../Images/left-removebg-preview.png";
 import greekRight from "../../Images/right-removebg-preview.png";
-import { faGamepad, faSearch } from "@fortawesome/free-solid-svg-icons";
+import {
+  faGamepad,
+  faSearch,
+  faAward,
+  faHandHoldingDollar,
+} from "@fortawesome/free-solid-svg-icons";
 import {
   faHandHoldingHeart,
   faHandshakeAngle,
@@ -38,6 +43,8 @@ class Utility extends Component {
               <Card data={this.props.data.card2} icon={faHandHoldingHeart} />
               <Card data={this.props.data.card3} icon={faHandshakeAngle} />
               <Card data={this.props.data.card4} icon={faSearch} />
+              <Card data={this.props.data.card5} icon={faAward} />
+              <Card data={this.props.data.card6} icon={faHandHoldingDollar} />
             </div>
           </div>
         </Slide>

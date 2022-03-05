@@ -2,7 +2,7 @@
   "main": {
     "name": "Elrond Olympian Gods",
     "intro_description": "Ten of the most representative greek gods from Olympus Mountain arised to conquer NFT Elrond marketplace.",
-    "quote": " THE DICE OF ZEUS ALWAYS FALL LUCKILY.",
+    "quote": "THE DICE OF ZEUS ALWAYS FALL LUCKILY.",
     "buy_button": "https://google.com",
     "menu": {
       "menu_1": "Home",
@@ -21,12 +21,20 @@
       "copyright": "Copyright 2022 Elrond Olympian Gods",
       "design": "Developed by",
       "dev_name": "Maria Frentescu",
-      "dev_link": "https://www.instagram.com/maria.frentescu/"
+      "dev_link": "https://www.linkedin.com/in/maria-frentescu-b20aa21a3/"
     }
   },
   "about": {
     "title": "About project",
-    "project_desc": "Our collection includes 10 of the most famous gods from greek mithology. Their army is compound from 10.000 NFTs and they become our allies on the Elrond network. With a strong roadmap and one well defined purpose, our NFTs will rule the NFT marketplace. The NFTs will be listed for mint in different phases on TrustMarket."
+    "project_desc_p1": "The Elrond Olympian Gods collection was created not only for the lovers of digital art and NFTs, but also for those who wants to buy a valuable digital asset.",
+    "project_desc_p2": " Taking into account that many people complained about NFTs being just a pixel art, we decided to take a step further by bringing you a NFT collection, consisting 10 of the most famous gods from Greek mythology.",
+    "project_desc_p3": "Their history is well known in the whole world, this being the reason that we started this NFT project. Our pupose is to promote the Gods from the Olympus Mountain on Elrond NFT market place. We consider the history of the Olympian Gods to be indisputable.",
+    "project_desc_p4": " Giving the fact that diggital art will be more and more valuable, we aim that Elrond Olympian Gods NFTs to reach the maximum value potential.",
+    "project_desc_p5": "This way, we created 10.000 NFTs on Elrond network which will be listed for mint in different phases on TrustMarket.",
+    "project_desc_p6": " Support Elrond Olympian Gods history to last over time in the upcoming  battles that are taking place on NFT marketplace."
+  },
+  "mint": {
+    "title": "Mint"
   },
   "roadmap": {
     "title": "Roadmap",
@@ -34,13 +42,14 @@
     "q1_1": "COMMUNITY ACTIVATION",
     "q1_2": "MARKETING",
     "q1_3": "GIVEAWAY & CONTESTS",
-    "q1_4": "DISCORD & TELEGRAM",
+    "q1_4": "COMMUNITY CHANNELS",
+    "q1_5": "PARTNERSHIPS & COLLABORATIONS",
+    "q1_6": "LAUNCHING WEBSITE",
     "q2": "Q2 2022",
-    "q2_1": "LAUCHING WEBSITE",
-    "q2_2": "VERIFY COLLECTION ON NFT MARKETPLACE",
-    "q2_3": "NFT MINTING (PHASE 1)",
-    "q2_4": "SOLD OUT GIVEAWAY",
-    "q2_5": "PARTERSHIP & COLABORATIONS",
+    "q2_1": "NFT MINTING (PHASE 1)",
+    "q2_2": "SOLD OUT GIVEAWAY",
+    "q2_3": "OTHER NFT COLLABORATIONS",
+    "q2_4": "NEXT MINTING PHASES",
     "q3": "Q3 2022",
     "q4": "TBA"
   },
@@ -61,6 +70,14 @@
     "card4": {
       "title": "Future projects",
       "desc": "This part will be decided based on our members involvement and demand. We will create a Venture Capital Community to get allocation in future crypto projects."
+    },
+    "card5": {
+      "title": "Rewards",
+      "desc": "Raffles of lkmex will be distributed weekly to NFTs holders. An amount of EGLD will be staked in liquidity pools."
+    },
+    "card6": {
+      "title": "Lottery",
+      "desc": "After every collection sold out, a prize consisting of 500$ will be distributed randomly to a lucky NFT holder from the ongoing collection."
     }
   },
 
@@ -92,7 +109,7 @@
 
       "question4": {
         "title": "What is the mint price?",
-        "content": "First minting price will be 0.3 EGLD."
+        "content": "First minting price will be 0.4 EGLD for the first 500 buyers."
       },
       "question5": {
         "title": "When can I mint them?",

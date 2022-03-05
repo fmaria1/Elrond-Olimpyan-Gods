@@ -9,8 +9,10 @@ class Home extends Component {
 
     return (
       <header id="home">
-        <NavbarComponent data={this.props.data} />
-        <Intro data={this.props.data} />
+        <div className="home">
+          <NavbarComponent data={this.props.data} />
+          <Intro data={this.props.data} />
+        </div>
       </header>
     );
   }

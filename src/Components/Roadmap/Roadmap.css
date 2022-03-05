@@ -48,7 +48,16 @@
     font-size: 15px;
   }
 }
-
+@media (max-width: 1000px) {
+  .roadmap-title {
+    font: 45px "opensans-bold", sans-serif;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .roadmap-title {
+    font: 35px "opensans-bold", sans-serif;
+  }
+}
 @media only screen and (max-width: 480px) {
   .roadmap-title {
     font: 30px "opensans-bold", sans-serif;

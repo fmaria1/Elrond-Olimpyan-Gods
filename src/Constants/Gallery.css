@@ -82,6 +82,7 @@
 @media only screen and (max-width: 600px) {
   .mosaicImage img {
     width: 90%;
+    /* height: 100%; */
     border: 1px solid gold;
   }
 }

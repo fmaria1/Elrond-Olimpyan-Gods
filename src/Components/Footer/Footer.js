@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import SocialLinks from "../../Constants/SocialLinks";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import "./Footer.css";
 
 class Footer extends Component {
@@ -19,9 +21,14 @@ class Footer extends Component {
               <li>&copy; {footer.copyright}</li>
               <li>
                 {footer.design}
-                <a href={footer.dev_link} target="_blank" rel="noreferrer">
-                  <b> {footer.dev_name}</b>
-                </a>
+                <b> {footer.dev_name}</b>
+                <span>
+                  <FontAwesomeIcon
+                    className="icons"
+                    icon={faLinkedin}
+                    onClick={() => window.open(footer.dev_link)}
+                  />
+                </span>
               </li>
             </ul>
           </div>

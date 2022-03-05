@@ -18,6 +18,9 @@
   width: 80%;
   margin: 5px auto 5px auto;
 }
+.about-text p {
+  text-align: center;
+}
 
 .about-carousel {
   padding-top: 80px;
@@ -43,6 +46,19 @@
   margin: 20px auto 20px auto;
   border-color: whitesmoke;
   padding-bottom: 30px;
+}
+@media (max-width: 1000px) {
+  .about-title {
+    font: 45px "opensans-bold", sans-serif;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .about-title {
+    font: 35px "opensans-bold", sans-serif;
+  }
+  .about-text {
+    font: 17px/1.1em "opensans-bold", sans-serif;
+  }
 }
 @media only screen and (max-width: 480px) {
   .about-title {

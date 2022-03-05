@@ -13,6 +13,16 @@
 .useOfFunds-content {
   padding-top: 80px;
 }
+@media (max-width: 1000px) {
+  .useOfFunds-title {
+    font: 45px "opensans-bold", sans-serif;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .useOfFunds-title {
+    font: 35px "opensans-bold", sans-serif;
+  }
+}
 @media only screen and (max-width: 480px) {
   .useOfFunds-title {
     font: 30px "opensans-bold", sans-serif;

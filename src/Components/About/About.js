@@ -12,7 +12,6 @@ class About extends Component {
   render() {
     if (!this.props.data) return null;
     const title = this.props.data.title;
-    const project_desc = this.props.data.project_desc;
     const responsive = {
       0: { items: 1 },
       320: { items: 2 },
@@ -41,7 +40,17 @@ class About extends Component {
         <Fade bottom duration={1200}>
           <div className="about-carousel">
             <hr className="hr-1" />
-            <div className="about-text">{project_desc}</div>
+            <div className="about-text">
+              <p>
+                {this.props.data.project_desc_p1}
+                {this.props.data.project_desc_p2} <br />
+                {this.props.data.project_desc_p3}
+                {this.props.data.project_desc_p4}
+                <br />
+                {this.props.data.project_desc_p5}
+                {this.props.data.project_desc_p6}
+              </p>
+            </div>
             <hr className="hr-2" />
             <AliceCarousel
               disableButtonsControls

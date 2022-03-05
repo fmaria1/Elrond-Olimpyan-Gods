@@ -101,6 +101,33 @@ class Roadmap extends Component {
                 </h3>
               </VerticalTimelineElement>
               <VerticalTimelineElement
+                className="roadmap-element"
+                contentStyle={{
+                  background: "#fff6ee",
+                  borderRadius: "20px ",
+                  blockSize: "60px",
+                }}
+                icon={<CheckIcon />}
+              >
+                <h3 className="roadmap-element-title">
+                  {this.props.data.q1_5}
+                </h3>
+              </VerticalTimelineElement>
+              <VerticalTimelineElement
+                className="roadmap-element"
+                contentStyle={{
+                  background: "#fff6ee",
+                  borderRadius: "20px ",
+                  blockSize: "60px",
+                }}
+                iconStyle={{ background: "black", color: "#fff" }}
+                // icon={<CheckIcon />}
+              >
+                <h3 className="roadmap-element-title">
+                  {this.props.data.q1_6}
+                </h3>
+              </VerticalTimelineElement>
+              <VerticalTimelineElement
                 className="roadmap-q"
                 contentStyle={{
                   background: "black",
@@ -110,7 +137,8 @@ class Roadmap extends Component {
                 contentArrowStyle={{
                   borderRight: "10px solid  black",
                 }}
-                icon={<CheckIcon />}
+                iconStyle={{ background: "black", color: "#fff" }}
+                // icon={<CheckIcon />}
               >
                 <h3 className="roadmap-q-title">{this.props.data.q2}</h3>
               </VerticalTimelineElement>
@@ -133,7 +161,7 @@ class Roadmap extends Component {
                 contentStyle={{
                   background: "#fff6ee",
                   borderRadius: "20px ",
-                  blockSize: "120px",
+                  blockSize: "60px",
                 }}
                 iconStyle={{ background: "black", color: "#fff" }}
               >
@@ -166,19 +194,6 @@ class Roadmap extends Component {
               >
                 <h3 className="roadmap-element-title">
                   {this.props.data.q2_4}
-                </h3>
-              </VerticalTimelineElement>
-              <VerticalTimelineElement
-                className="roadmap-element"
-                contentStyle={{
-                  background: "#fff6ee",
-                  borderRadius: "20px ",
-                  blockSize: "60px",
-                }}
-                iconStyle={{ background: "black", color: "#fff" }}
-              >
-                <h3 className="roadmap-element-title">
-                  {this.props.data.q2_5}
                 </h3>
               </VerticalTimelineElement>
 

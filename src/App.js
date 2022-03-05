@@ -5,6 +5,7 @@ import "./App.css";
 import Home from "./Components/Home/Home";
 import Footer from "./Components/Footer/Footer";
 import About from "./Components/About/About";
+import BuyComponent from "./Components/BuyComponent/BuyComponent";
 import Roadmap from "./Components/Roadmap/Roadmap";
 import Utility from "./Components/Utility/Utility";
 import Artist from "./Components/Artist/Artist";
@@ -49,6 +50,7 @@ class App extends Component {
         <Video />
         <Home data={this.state.resumeData.main} />
         <About data={this.state.resumeData.about} />
+        <BuyComponent data={this.state.resumeData.mint} />
         <Roadmap data={this.state.resumeData.roadmap} />
         <Utility data={this.state.resumeData.utility} />
         <UseOfFunds data={this.state.resumeData.useOfFunds} />

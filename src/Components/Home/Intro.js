@@ -17,8 +17,11 @@ class Intro extends Component {
           </Fade>
           <Fade bottom duration={1200}>
             <h3>{intro_description}</h3>
+            <br />
             <span>
-              <h3>"{quote}" (SOPHOCLES)</h3>
+              <h3>
+                <i>"{quote}"</i> - SOPHOCLES
+              </h3>
             </span>
           </Fade>
           <hr />

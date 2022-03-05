@@ -1,0 +1,51 @@
+#buy {
+  padding-top: 80px;
+}
+.buy-title {
+  font: 50px/1.1em "opensans-bold", sans-serif;
+  color: whitesmoke;
+  letter-spacing: -2px;
+  margin: 0 auto 18px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buy-product {
+  padding-top: 50px;
+}
+.buy-product p {
+  font: 40px/1.1em "opensans-bold", sans-serif;
+  color: whitesmoke;
+  letter-spacing: -2px;
+  margin: 0 auto 18px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buy-product hr {
+  width: 50%;
+  margin: 1px auto 20px auto;
+  border-color: whitesmoke;
+}
+.buy-carousel {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+@media (max-width: 1000px) {
+  .buy-title {
+    font: 45px "opensans-bold", sans-serif;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .buy-title {
+    font: 35px "opensans-bold", sans-serif;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .buy-title {
+    font: 30px "opensans-bold", sans-serif;
+  }
+  .buy-product p {
+    font: 15px/1.1em "opensans-bold", sans-serif;
+  }
+}

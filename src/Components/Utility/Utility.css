@@ -19,7 +19,7 @@
 }
 .utility-content .cards {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   pointer-events: none;
 }
@@ -61,7 +61,10 @@
 .cards:hover > .card:not(:hover) {
   opacity: 0.8;
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1000px) {
+  .utility-title {
+    font: 45px "opensans-bold", sans-serif;
+  }
   .utility-content .card {
     max-width: 250px;
   }
@@ -76,31 +79,48 @@
     font-size: 13px;
   }
 }
-@media only screen and (max-width: 600px) {
-  .utility-content .card {
-    max-width: 210px;
-  }
-  .utility-content .card .card-title {
-    font-size: 17px;
-  }
-  .utility-content .card .card-desc {
-    font-size: 12px;
-    line-height: 17px;
-  }
-}
-@media only screen and (max-width: 480px) {
+
+@media only screen and (max-width: 800px) {
   .utility-title {
     font: 30px "opensans-bold", sans-serif;
+  }
+  .utility-content .cards {
+    gap: 10px;
   }
   .utility-content {
     padding-top: 50px;
   }
   .utility-content .card {
     max-width: 150px;
-    padding: 15px;
+    padding: 10px;
   }
   .utility-content .card .card-title {
     font-size: 12px;
+  }
+  .utility-content .card .card-desc {
+    font-size: 10px;
+    line-height: 10px;
+  }
+  .utility-content .card .card-icons {
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .utility-title {
+    font: 35px "opensans-bold", sans-serif;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .utility-title {
+    font: 30px "opensans-bold", sans-serif;
+  }
+
+  .utility-content .card {
+    max-width: 110px;
+    padding: 5px;
+  }
+  .utility-content .card .card-title {
+    font-size: 10px;
   }
   .utility-content .card .card-desc {
     font-size: 10px;

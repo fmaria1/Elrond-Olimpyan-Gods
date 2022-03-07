@@ -5,8 +5,8 @@ import "react-alice-carousel/lib/alice-carousel.css";
 import "./About.css";
 import CarouselData from "../../Constants/Carousel";
 import GreekLeafs from "../../Constants/GreekLeafs";
-import greekLeft from "../../Images/left-removebg-preview.png";
-import greekRight from "../../Images/right-removebg-preview.png";
+import greekLeft from "../../Images/left";
+import greekRight from "../../Images/right";
 
 class About extends Component {
   render() {
@@ -22,7 +22,7 @@ class About extends Component {
     };
     return (
       <section id="about">
-        <Fade bottom duration={1200}>
+        <Fade bottom duration={1000}>
           <div className="about-title">
             <table>
               <tr>
@@ -37,34 +37,32 @@ class About extends Component {
             </table>
           </div>
         </Fade>
-        <Fade bottom duration={1200}>
-          <div className="about-carousel">
-            <hr className="hr-1" />
-            <div className="about-text">
-              <p>
-                {this.props.data.project_desc_p1}
-                {this.props.data.project_desc_p2} <br />
-                {this.props.data.project_desc_p3}
-                {this.props.data.project_desc_p4}
-                <br />
-                {this.props.data.project_desc_p5}
-                {this.props.data.project_desc_p6}
-              </p>
-            </div>
-            <hr className="hr-2" />
-            <AliceCarousel
-              disableButtonsControls
-              mouseTracking
-              items={CarouselData}
-              responsive={responsive}
-              controlsStrategy="alternate"
-              autoPlay={true}
-              autoPlayInterval={3000}
-              infinite
-              autoPlayStrategy="none"
-            />
+        <div className="about-carousel">
+          <hr className="hr-1" />
+          <div className="about-text">
+            <p>
+              {this.props.data.project_desc_p1}
+              {this.props.data.project_desc_p2} <br />
+              {this.props.data.project_desc_p3}
+              {this.props.data.project_desc_p4}
+              <br />
+              {this.props.data.project_desc_p5}
+              {this.props.data.project_desc_p6}
+            </p>
           </div>
-        </Fade>
+          <hr className="hr-2" />
+          <AliceCarousel
+            disableButtonsControls
+            mouseTracking
+            items={CarouselData}
+            responsive={responsive}
+            controlsStrategy="alternate"
+            autoPlay={true}
+            autoPlayInterval={3000}
+            infinite
+            autoPlayStrategy="none"
+          />
+        </div>
       </section>
     );
   }

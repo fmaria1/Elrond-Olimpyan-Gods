@@ -34,7 +34,12 @@
     "project_desc_p6": " Support Elrond Olympian Gods history to last over time in the upcoming  battles that are taking place on NFT marketplace."
   },
   "mint": {
-    "title": "Mint"
+    "title": "Mint",
+    "god_1": {
+      "name": "Afrodita",
+      "picture": "http://res.cloudinary.com/prvnbist/image/upload/v1508603573/helmet.png",
+      "link": "http://www.google.com"
+    }
   },
   "roadmap": {
     "title": "Roadmap",

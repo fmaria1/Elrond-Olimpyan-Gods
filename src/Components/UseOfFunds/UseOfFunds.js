@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import { Slide, Fade } from "react-reveal";
+import { Fade } from "react-reveal";
 import "./UseOfFunds.css";
 import GreekLeafs from "../../Constants/GreekLeafs";
-import greekLeft from "../../Images/left-removebg-preview.png";
-import greekRight from "../../Images/right-removebg-preview.png";
+import greekLeft from "../../Images/left";
+import greekRight from "../../Images/right";
 import PieChart from "./PieChart";
 
 class UseOfFunds extends Component {
@@ -27,11 +27,9 @@ class UseOfFunds extends Component {
             </table>
           </div>
         </Fade>
-        <Slide left duration={1300}>
-          <div className="useOfFunds-content">
-            <PieChart />
-          </div>
-        </Slide>
+        <div className="useOfFunds-content">
+          <PieChart />
+        </div>
       </section>
     );
   }

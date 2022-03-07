@@ -29,7 +29,7 @@
 }
 .textContainer .textContent p {
   color: whitesmoke;
-  font-size: 30px;
+  font: 30px "opensans-bold";
   transition: all 0.3 ease-in-out;
 }
 .textContainer .textContent .active {

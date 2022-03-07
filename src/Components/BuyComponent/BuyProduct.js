@@ -1,12 +1,22 @@
 import React from "react";
 import "./BuyProduct.css";
-const BuyProduct = () => {
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
+
+const BuyProduct = (props) => {
+  if (!props.god) return null;
   return (
     <div className="container">
       <div className="card">
         <div className="left">
           <div className="slider">
-            <i className="material-icons">arrow_back</i>
+            <i className="material-icons">
+              <FontAwesomeIcon
+                className="icons"
+                icon={faArrowLeft}
+                // onClick={() => window.open(this.props.data.instagram)}
+              />
+            </i>
           </div>
           <img
             className="wordmark"
@@ -15,32 +25,26 @@ const BuyProduct = () => {
           />
         </div>
         <div className="right">
-          <img
-            className="helmet"
-            src="http://res.cloudinary.com/prvnbist/image/upload/v1508603573/helmet.png"
-            alt="helmet"
-          />
+          <img className="helmet" src={props.god.picture} alt="helmet" />
           <div className="productInfo">
-            <h1>STORMTROOPER </h1>
-            <h2>$1,299.99</h2>
+            <h1>{props.god.name}</h1>
+
             <div className="details">
-              <div className="size">
-                <h4>HELMET SIZE</h4>
-                <p>S</p>
-                <p>M</p>
-                <p>L</p>
-                <p>XL</p>
-              </div>
-              <div className="durability">
-                <h3>75%</h3>
-                <h4>DURABILITY </h4>
-              </div>
+              <div className="size"></div>
+              <div className="durability"></div>
             </div>
-            <button>ADD TO CART</button>
-            <i className="material-icons fav">favorite</i>
+            <a href={props.god.link} target="_blank" rel="noreferrer">
+              MINT
+            </a>
 
             <div className="slider">
-              <i className="material-icons">arrow_forward</i>
+              <i className="material-icons">
+                <FontAwesomeIcon
+                  className="icons"
+                  icon={faArrowRight}
+                  // onClick={() => window.open(this.props.data.instagram)}
+                />
+              </i>
             </div>
           </div>
         </div>

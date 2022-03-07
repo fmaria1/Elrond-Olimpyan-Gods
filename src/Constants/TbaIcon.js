@@ -1,5 +1,5 @@
 import React from "react";
-import tbaLogo from "../Images/tba.png";
+import tbaLogo from "../Images/tba";
 
 const TbaIcon = () => (
   <div>

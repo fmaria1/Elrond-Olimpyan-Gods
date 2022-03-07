@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import { Slide, Fade } from "react-reveal";
+import { Fade } from "react-reveal";
 import GreekLeafs from "../../Constants/GreekLeafs";
-import greekLeft from "../../Images/left-removebg-preview.png";
-import greekRight from "../../Images/right-removebg-preview.png";
+import greekLeft from "../../Images/left";
+import greekRight from "../../Images/right";
 import FaqComponent from "./FaqComponent";
 import "./FaqPage.css";
 
@@ -26,11 +26,11 @@ class FaqPage extends Component {
             </table>
           </div>
         </Fade>
-        <Slide left duration={1300}>
+        <Fade bottom duration={1000}>
           <div className="faq-content">
             <FaqComponent questions={this.props.data.questions} />
           </div>
-        </Slide>
+        </Fade>
       </section>
     );
   }

@@ -1,13 +1,13 @@
-import afrodita from "../Images/afrodita.jpg";
-import ares from "../Images/ares.jpg";
-import artemis from "../Images/artemis.jpg";
-import athena from "../Images/athena.jpg";
-import hades from "../Images/hades.jpg";
-import hapollo from "../Images/hapollo.jpg";
-import hera from "../Images/hera.png";
-import hermes from "../Images/hermes.jpg";
-import poseidon from "../Images/poseidon.jpg";
-import zeus from "../Images/zeus.jpg";
+import afrodita from "../Images/afrodita";
+import ares from "../Images/ares";
+import artemis from "../Images/artemis";
+import athena from "../Images/athena";
+import hades from "../Images/hades";
+import hapollo from "../Images/hapollo";
+import hera from "../Images/hera";
+import hermes from "../Images/hermes";
+import poseidon from "../Images/poseidon";
+import zeus from "../Images/zeus";
 import "./Carousel.css";
 
 const handleDragStart = (e) => e.preventDefault();

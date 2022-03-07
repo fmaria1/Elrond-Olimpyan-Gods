@@ -1,7 +1,7 @@
 import React from "react";
 import "./Video.css";
-import fireBackground from "../../Images/Comp_3_17.mp4";
-import imgBackground from "../../Images/background.png";
+import fireBackground from "../../Images/backgroundVid";
+import imgBackground from "../../Images/background";
 
 const Video = () => {
   return (

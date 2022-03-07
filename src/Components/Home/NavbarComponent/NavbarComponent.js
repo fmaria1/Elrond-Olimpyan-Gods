@@ -1,7 +1,7 @@
 // import React, { Component } from "react";
 import React, { useState } from "react";
 import SocialLinks from "../../../Constants/SocialLinks";
-import eogLogo from "../../../Images/logo_text.png";
+import eogLogo from "../../../Images/logoText";
 import { ReactComponent as MenuIcon } from "./menu.svg";
 import "./NavbarComponent.css";
 

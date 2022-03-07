@@ -1,10 +1,10 @@
 import React from "react";
 import "./Gallery.css";
-import artemis from "../Images/artemis.jpg";
-import hades from "../Images/hades.jpg";
-import hapollo from "../Images/hapollo.jpg";
-import poseidon from "../Images/poseidon.jpg";
-import zeus from "../Images/zeus.jpg";
+import artemis from "../Images/artemis";
+import hades from "../Images/hades";
+import hapollo from "../Images/hapollo";
+import poseidon from "../Images/poseidon";
+import zeus from "../Images/zeus";
 
 const Gallery = () => {
   return (

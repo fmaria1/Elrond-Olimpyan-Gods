@@ -18,7 +18,7 @@ class Footer extends Component {
             </ul>
 
             <ul className="copyright">
-              <li>&copy; {footer.copyright}</li>
+              <li>{footer.copyright}</li>
               <li>
                 {footer.design}
                 <b> {footer.dev_name}</b>

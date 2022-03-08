@@ -35,10 +35,67 @@
   },
   "mint": {
     "title": "Mint",
-    "god_1": {
-      "name": "Afrodita",
-      "picture": "http://res.cloudinary.com/prvnbist/image/upload/v1508603573/helmet.png",
-      "link": "http://www.google.com"
+    "gods": {
+      "god_1": {
+        "name": "🕊 APHRODITE 🕊",
+        "desc": "Beauty is about finding the right fit, the most natural fit. To be perfect, you have to feel perfect about yourself…avoid being something you’re not❤️",
+        "picture": "https://elrondolympiangods.blob.core.windows.net/eog-media/afrodita.jpg",
+        "link": "https://www.google.com"
+      },
+      "god_2": {
+        "name": "🗡️🛡️ ARES 🗡️🛡️",
+        "desc": "Was known as the God of War because he represented frenzy of battle and bloodlust. He hates those who hesitate.",
+        "picture": "https://elrondolympiangods.blob.core.windows.net/eog-media/ares.jpg",
+        "link": ""
+      },
+      "god_3": {
+        "name": "🏹 ARTEMIS 🏹",
+        "desc": "The greek goddess gives us courage. She illuminates those places that terrify us and lends us her strength to bring us safely through our fears.",
+        "picture": "https://elrondolympiangods.blob.core.windows.net/eog-media/artemis.jpg",
+        "link": ""
+      },
+      "god_4": {
+        "name": "⚔️ ATHENA ⚔️",
+        "desc": "The Olympian goddess of wisdom and war and the adored patroness of the city of Athens.",
+        "picture": "https://elrondolympiangods.blob.core.windows.net/eog-media/athena.jpg",
+        "link": ""
+      },
+      "god_5": {
+        "name": "🔥 HADES 🔥",
+        "desc": "Life isn't fair, but death is.",
+        "picture": "https://elrondolympiangods.blob.core.windows.net/eog-media/hades.jpg",
+        "link": ""
+      },
+      "god_6": {
+        "name": "🌞 APOLLO 🌞",
+        "desc": "☄️Zeus’s favorite son, God of light, music and healing. One of his task was to carry the Sun across the sky.",
+        "picture": "https://elrondolympiangods.blob.core.windows.net/eog-media/hapollo.jpg",
+        "link": ""
+      },
+      "god_7": {
+        "name": "🌹 HERA 🌹",
+        "desc": "The Olympian Queen of the Gods and Zeus's wife is here with another...",
+        "picture": "https://elrondolympiangods.blob.core.windows.net/eog-media/hera.png",
+        "link": ""
+      },
+      "god_8": {
+        "name": "📨 HERMES 📨",
+        "desc": "He was a very popular guy, a real charmer, and there were statues of him all around Athens.",
+        "picture": "https://elrondolympiangods.blob.core.windows.net/eog-media/hermes.jpg",
+        "link": ""
+      },
+      "god_9": {
+        "name": "🔱 POSEIDON 🔱",
+        "desc": "To some, he was the “Savior of Sailors”, to others the “Averter of Earthquakes”.",
+        "picture": "https://elrondolympiangods.blob.core.windows.net/eog-media/poseidon.jpg",
+        "link": ""
+      },
+      "god_10": {
+        "name": "⚡️ ZEUS ⚡️",
+        "desc": "The father of Olympic Gods, turned mid-day into night, hiding the light of the dazzling SUN; and sore fear came upon men.",
+        "picture": "https://elrondolympiangods.blob.core.windows.net/eog-media/zeus.jpg",
+        "link": ""
+      }
     }
   },
   "roadmap": {

@@ -5,9 +5,7 @@ import GreekLeafs from "../../Constants/GreekLeafs";
 import greekLeft from "../../Images/left";
 import greekRight from "../../Images/right";
 import "./BuyComponent.css";
-// import BuyProduct from "./BuyProduct";
-// import AliceCarousel from "react-alice-carousel";
-// import CarouselData from "../../Constants/Carousel";
+import BuyCarousel from "../BuyComponent/BuyCarousel";
 
 const BuyComponent = (props) => {
   if (!props.data) return null;
@@ -29,25 +27,9 @@ const BuyComponent = (props) => {
         </div>
       </Fade>
       <Fade bottom duration={1000}>
-        <div className="buy-product">
-          <hr></hr>
-          <p>TBA</p>
-          <hr></hr>
+        <div className="buy-content">
+          <BuyCarousel gods={props.data.gods} />
         </div>
-        {/* <div className="buy-carousel">
-          <BuyProduct god={props.data.god_1} />
-        </div>
-        <AliceCarousel
-          disableButtonsControls
-          mouseTracking
-          items={CarouselData}
-          // responsive={responsive}
-          controlsStrategy="alternate"
-          autoPlay={true}
-          autoPlayInterval={3000}
-          infinite
-          autoPlayStrategy="none"
-        /> */}
       </Fade>
     </section>
   );

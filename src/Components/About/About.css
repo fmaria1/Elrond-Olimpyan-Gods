@@ -65,8 +65,12 @@
     font: 30px "opensans-bold", sans-serif;
   }
   .about-text {
-    font: 15px/1.1em "opensans-bold", sans-serif;
+    font: 12px/1.1em "opensans-bold", sans-serif;
   }
+  .about-carousel .hr-2 {
+    margin: 0px auto 20px auto;
+  }
+
   .about-carousel {
     padding-top: 50px;
   }

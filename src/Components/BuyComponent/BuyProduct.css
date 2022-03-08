@@ -10,173 +10,241 @@
   display: flex;
   align-items: center;
 }
-.container .card .left {
-  width: 480px;
-  height: 553px;
-  background: #cc3843;
-  border-radius: 23px;
-  display: flex;
-  align-items: center;
-}
-.container .card .left .wordmark {
-  opacity: 0.2;
-  transform: rotate(-90deg) scale(1.2);
-  margin-left: -90px;
-}
+
 .container .card .right {
-  width: 654px;
-  height: 479px;
-  background: #0c1f2c;
+  width: 600px;
+  /* height: 600px; */
+  height: 750px;
+  background: #151515;
   position: absolute;
-  /* left: -10%; */
   transform: translateX(50%);
-  border-radius: 23px;
+  border-radius: 40px;
 }
-.container .card .right .helmet {
+.container .card .right .god-picture {
+  width: 90%;
   position: absolute;
   top: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-60%, -50%);
+  border-radius: 20px;
+  border: 3px solid gold;
 }
-.container .card .right .productInfo {
+.container .card .right .god-info {
   width: 300px;
   height: 300px;
-  margin: 50px 0 0 235px;
+  margin: 70px 0 0 235px;
+  /* margin: 50px 0 0 235px; */
   color: #fff;
   font-family: "Open Sans", sans-serif;
 }
-.container .card .right .productInfo h1 {
-  font-weight: 800;
+
+.container .card .right .god-info h1 {
+  color: whitesmoke;
   line-height: 46px;
-  font-size: 40px;
-  margin-bottom: 15px;
+  font-size: 35px;
+  margin-bottom: 50px;
 }
-.container .card .right .productInfo h2 {
-  font-weight: 300;
-  font-size: 32px;
-  letter-spacing: 1.6px;
-  margin-bottom: 30px;
+.container .card .right .god-info h2 {
+  color: whitesmoke;
+  line-height: 30px;
+  font-size: 18px;
+  margin-left: 20px;
 }
-.container .card .right .productInfo .details {
-  height: 145px;
+.container .card .right .god-info .mint-button {
+  position: fixed;
+  bottom: 175px;
+  /* bottom: 75px; */
+  left: 350px;
 }
-.container .card .right .productInfo .details .size,
-.container .card .right .productInfo .details .durability {
-  width: 50%;
-  float: left;
-}
-.container .card .right .productInfo .details .size {
-  border-right: 1px solid #cb1f40;
-  padding: 30px 0;
-}
-.container .card .right .productInfo .details .durability {
-  text-align: center;
-}
-.container .card .right .productInfo .details .durability h4 {
-  margin-top: 20px;
-  margin-bottom: 30px;
-}
-.container .card .right .productInfo a {
-  height: 48px;
-  background: #cb2140;
-  border-radius: 90px;
-  font-weight: 300;
-  line-height: 35px;
-  font-size: 14px;
-  padding: 0 24px;
-  color: #fff;
-}
-.container .card .right .productInfo i.fav {
-  font-size: 12px;
-  margin: 0 12px 0 24px;
-  color: #cb2140;
-}
-/* .container .card .right .productInfo a {
-  font-size: 12px;
-  color: #fff;
-  opacity: 0.3;
+.container .card .right .god-info .mint-button a {
+  background-image: linear-gradient(144deg, white, gold, white);
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: whitesmoke;
+  font-family: Phantomsans, sans-serif;
+  font-size: 30px;
+  padding: 17px;
+  /* font-size: 30px;
+  padding: 15px; */
   text-decoration: none;
-} */
-.container .card .right .productInfo h3 {
-  width: 80px;
-  height: 80px;
-  font-weight: 300;
-  line-height: 80px;
-  font-size: 16px;
-  margin-left: 30px;
-  positon: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
 }
-.container .card .right .productInfo h3:after {
-  content: "";
-  position: absolute;
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  border: 2px solid #cb1f40;
-  border-top-color: transparent;
-  transform: rotate(-45deg) translate(-50%, -50%);
-}
-.container .card .right .productInfo h4 {
-  font-weight: bold;
-  line-height: normal;
-  font-size: 12px;
-  letter-spacing: 3px;
-  margin-bottom: 15px;
-}
-.container .card .right .productInfo p {
-  width: 30px;
-  height: 30px;
-  display: inline-block;
-  line-height: normal;
-  text-align: center;
-  font-weight: 300px;
-  line-height: 28px;
-  font-size: 14px;
-  border-radius: 50%;
-  transition: 0.3s linear;
-  border: 1px solid transparent;
+.container .card .right .god-info .mint-button .active_button {
   cursor: pointer;
 }
-.container .card .right .productInfo p:hover {
-  border: 1px solid #cb1f40;
+.container .card .right .god-info .mint-button .disable_button {
+  pointer-events: none;
+  opacity: 0.7;
 }
-.container .card .right .productInfo p:nth-of-type(1) {
-  border: 1px solid #cb1f40;
+.container .card .right .god-info .mint-button a span {
+  color: #151515;
 }
-.container .slider {
-  width: 60px;
-  height: 60px;
-  background: #fff;
-  border-radius: 50%;
-  line-height: 70px;
-  text-align: center;
-  margin-left: -30px;
-  box-shadow: 0 0 60px rgba(0, 0, 0, 0.2);
-  color: #cb1f40;
-  cursor: pointer;
-}
-.container .slider:nth-of-type(2) {
-  position: absolute;
-  top: 50%;
-  right: -60px;
-  transform: translate(-50%, -50%);
-}
-@media screen and (max-width: 576px) {
-  .container .card {
-    transform: rotate(90deg) scale(0.7) translate(calc(50% - 25vh), 50%);
-    position: static;
+@media only screen and (max-width: 1600px) {
+  .container .card .right .god-picture {
+    transform: translate(-50%, -50%);
+    width: 75%;
+  }
+  .container .card .right {
+    width: 550px;
+    height: 600px;
+  }
+  .container .card .right .god-info .mint-button {
+    bottom: 120px;
+    left: 320px;
   }
 }
-.container .youtube {
-  font-family: "Open Sans", sans-serif;
-  text-decoration: none;
-  position: absolute;
-  right: 2.5vw;
-  bottom: 2vw;
-  transform: translate();
-  animation: clickMe 1s ease-in-out infinite;
+@media only screen and (max-width: 1400px) {
+  .container .card .right .god-picture {
+    width: 70%;
+  }
+  .container .card .right {
+    width: 500px;
+    height: 500px;
+  }
+  .container .card .right .god-info .mint-button {
+    bottom: 100px;
+    left: 290px;
+  }
+  .container .card .right .god-info {
+    margin: 50px 0 0 190px;
+  }
+  .container .card .right .god-info h1 {
+    margin-bottom: 30px;
+  }
 }
-@keyframes clickMe {
-  50% {
-    opacity: 0.5;
+
+@media only screen and (max-width: 1000px) {
+  .container .card {
+    padding-left: 80px;
+  }
+  .container .card .right .god-picture {
+    transform: translate(-30%, -50%);
+    width: 60%;
+  }
+  .container .card .right {
+    width: 400px;
+    height: 350px;
+  }
+  .container .card .right .god-info {
+    margin: 30px 180px;
+  }
+  .container .card .right .god-info h1 {
+    line-height: 25px;
+    font-size: 25px;
+  }
+  .container .card .right .god-info h2 {
+    line-height: 20px;
+    font-size: 13px;
+    margin-left: 5px;
+    padding-right: 100px;
+  }
+  .container .card .right .god-info .mint-button {
+    bottom: 70px;
+    left: 230px;
+  }
+  .container .card .right .god-info .mint-button a {
+    font-size: 30px;
+    padding: 15px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .container .card {
+    padding-left: 190px;
+  }
+  .container .card .right .god-picture {
+    transform: translate(-50%, -50%);
+    width: 75%;
+  }
+  .container .card .right {
+    width: 300px;
+    height: 320px;
+  }
+  .container .card .right .god-info {
+    margin: 30px 125px;
+  }
+  .container .card .right .god-info h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .container .card .right .god-info h2 {
+    font-size: 12px;
+    line-height: 15px;
+    padding-right: 140px;
+  }
+  .container .card .right .god-info .mint-button {
+    left: 160px;
+    bottom: 50px;
+  }
+  .container .card .right .god-info .mint-button a {
+    font-size: 25px;
+    padding: 12px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .container .card {
+    padding-left: 190px;
+  }
+  .container .card .right .god-picture {
+    transform: translate(-40%, -50%);
+    width: 65%;
+  }
+  .container .card .right {
+    width: 300px;
+    height: 280px;
+  }
+  .container .card .right .god-info {
+    margin: 30px 125px;
+  }
+  .container .card .right .god-info h1 {
+    font-size: 17px;
+    line-height: 13px;
+  }
+  .container .card .right .god-info h2 {
+    font-size: 10px;
+    line-height: 12px;
+    padding-right: 160px;
+  }
+  .container .card .right .god-info .mint-button {
+    left: 170px;
+  }
+  .container .card .right .god-info .mint-button a {
+    font-size: 20px;
+    padding: 10px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .container .card {
+    padding-left: 250px;
+  }
+  .container .card .right .god-picture {
+    transform: translate(-40%, -50%);
+    width: 70%;
+  }
+  .container .card .right {
+    width: 230px;
+    height: 230px;
+  }
+  .container .card .right .god-info {
+    margin: 20px 110px;
+  }
+  .container .card .right .god-info h1 {
+    font-size: 12px;
+    line-height: 15px;
+    margin-bottom: 10px;
+  }
+  .container .card .right .god-info h2 {
+    font-size: 8px;
+    line-height: 10px;
+    margin-left: 5px;
+    padding-right: 200px;
+  }
+  .container .card .right .god-info .mint-button {
+    left: 130px;
+  }
+  .container .card .right .god-info .mint-button a {
+    font-size: 18px;
+    padding: 10px;
   }
 }

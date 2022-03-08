@@ -61,7 +61,7 @@ const UseOfFounds = () => {
             30% - Marketing & Giveaways
           </p>
           <p className={selected === 2 ? "active" : ""}>
-            30% - Gamming Development
+            30% - Gaming Development
           </p>
           <p className={selected === 3 ? "active" : ""}>30% - Team</p>
         </div>

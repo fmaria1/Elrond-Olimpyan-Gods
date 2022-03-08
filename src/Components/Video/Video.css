@@ -1,28 +1,9 @@
-@media (min-width: 481px) {
-  .background-content video {
-    object-fit: cover;
-    width: 100vw;
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    left: 0;
-    opacity: 0.7;
-  }
-  .background-content img {
-    display: none;
-  }
-}
-@media only screen and (max-width: 480px) {
-  .background-content video {
-    display: none;
-  }
-  .background-content img {
-    object-fit: cover;
-    width: 100vw;
-    height: 120%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    opacity: 0.7;
-  }
+.background-content video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 0.7;
 }

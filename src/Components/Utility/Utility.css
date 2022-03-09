@@ -117,13 +117,15 @@
 
   .utility-content .card {
     max-width: 110px;
-    padding: 5px;
+    padding-left: 6px;
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
   .utility-content .card .card-title {
     font-size: 10px;
   }
   .utility-content .card .card-desc {
-    font-size: 10px;
+    font-size: 9px;
     line-height: 10px;
   }
   .utility-content .card .card-icons {

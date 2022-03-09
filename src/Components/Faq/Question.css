@@ -5,6 +5,7 @@
   background: rgba(0, 0, 0, 0.05);
   border-left: 15px solid gray;
   margin-top: 10px;
+  cursor: pointer;
 }
 
 .faq-container details.faq-question {
@@ -38,10 +39,10 @@
 .faq-container details[open] summary::before {
   transform: rotate(45deg);
 }
+
 @media only screen and (max-width: 480px) {
   .faq-container details summary,
   .faq-container details p {
     font-size: 15px;
-    padding: 10px;
   }
 }

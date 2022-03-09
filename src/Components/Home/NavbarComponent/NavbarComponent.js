@@ -1,8 +1,8 @@
-// import React, { Component } from "react";
 import React, { useState } from "react";
 import SocialLinks from "../../../Constants/SocialLinks";
 import eogLogo from "../../../Images/logoText";
 import { ReactComponent as MenuIcon } from "./menu.svg";
+import { ReactComponent as CloseMenu } from "./x.svg";
 import "./NavbarComponent.css";
 
 const NavbarComponent = (props) => {
@@ -23,7 +23,7 @@ const NavbarComponent = (props) => {
             <SocialLinks data={props.data.socials} />
           </li>
         </ul>
-        <ul className={click ? "nav-options active" : "nav-options"}>
+        <ul className={click ? "nav-options-active" : "nav-options"}>
           <li className="option" onClick={closeMobileMenu}>
             <a href="#home">{props.data.menu.menu_1}</a>
           </li>
@@ -44,7 +44,7 @@ const NavbarComponent = (props) => {
 
       <div className="mobile-menu" onClick={handleClick}>
         {click ? (
-          <MenuIcon className="menu-icon" />
+          <CloseMenu className="menu-icon" />
         ) : (
           <MenuIcon className="menu-icon" />
         )}

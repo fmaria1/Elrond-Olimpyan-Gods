@@ -26,7 +26,7 @@ class FaqPage extends Component {
             </table>
           </div>
         </Fade>
-        <Fade bottom duration={1000}>
+        <Fade left duration={800}>
           <div className="faq-content">
             <FaqComponent questions={this.props.data.questions} />
           </div>

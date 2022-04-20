@@ -1,7 +1,7 @@
 {
   "main": {
     "name": "Elrond Olympian Gods",
-    "intro_description": "Ten of the most representative greek gods from Olympus Mountain arised to conquer NFT Elrond marketplace.",
+    "intro_description": "Ten of the most representative Greek Gods from Olympus Mountain arose to conquer NFT Elrond marketplace.",
     "quote": "THE DICE OF ZEUS ALWAYS FALL LUCKILY.",
     "buy_button": "https://google.com",
     "menu": {
@@ -14,7 +14,7 @@
     "socials": {
       "instagram": "https://www.instagram.com/eolympiangods",
       "twitter": "https://twitter.com/EOlympianGods",
-      "discord": "https://discord.gg/UNJK7hQ2",
+      "discord": "https://discord.gg/fRB77fhhAj",
       "telegram": "https://t.me/+IcL5iL6ZWGYwYzY8"
     },
     "footer": {
@@ -26,75 +26,105 @@
   },
   "about": {
     "title": "About project",
-    "project_desc_p1": "The Elrond Olympian Gods collection was created not only for the lovers of digital art and NFTs, but also for those who wants to buy a valuable digital asset.",
-    "project_desc_p2": " Taking into account that many people complained about NFTs being just a pixel art, we decided to take a step further by bringing you a NFT collection, consisting 10 of the most famous gods from Greek mythology.",
-    "project_desc_p3": "Their history is well known in the whole world, this being the reason that we started this NFT project. Our pupose is to promote the Gods from the Olympus Mountain on Elrond NFT market place. We consider the history of the Olympian Gods to be indisputable.",
-    "project_desc_p4": " Giving the fact that diggital art will be more and more valuable, we aim that Elrond Olympian Gods NFTs to reach the maximum value potential.",
+    "project_desc_p1": "The Elrond Olympian Gods collection was created not only for the lovers of digital art and NFTs, but also for those who want to buy a valuable digital asset.",
+    "project_desc_p2": " Taking into account that many people complained about NFTs being just pixel art, we decided to take it a step further by bringing you an NFT collection, containing 10 of the most famous Gods from Greek mythology.",
+    "project_desc_p3": "Their history is well known throughout the whole world, this being the reason that we started this NFT project. Our purpose is to promote the Gods from the Olympus Mountain on Elrond NFT market place. We consider the history of the Olympian Gods to be indisputable.",
+    "project_desc_p4": " Given the fact that digital art will become more and more valuable, we aim for Elrond Olympian Gods NFTs to reach their maximum value potential.",
     "project_desc_p5": "This way, we created 10.000 NFTs on Elrond network which will be listed for mint in different phases on TrustMarket.",
-    "project_desc_p6": " Support Elrond Olympian Gods history to last over time in the upcoming  battles that are taking place on NFT marketplace."
+    "project_desc_p6": " Support Elrond Olympian Gods history to last over time in the upcoming battles that are taking place on NFT marketplace."
   },
   "mint": {
     "title": "Mint",
     "gods": {
-      "god_1": {
+      "god_10": {
         "name": "🕊 APHRODITE 🕊",
-        "desc": "Beauty is about finding the right fit, the most natural fit. To be perfect, you have to feel perfect about yourself…avoid being something you’re not❤️",
-        "picture": "https://elrondolympiangods.blob.core.windows.net/eog-media/afrodita.jpg",
-        "link": "https://www.google.com"
+        "desc": "",
+        "picture": "https://elrondolympiangods.blob.core.windows.net/eog-media/aphrodite.gif",
+        "link": "",
+        "startDate": "April 15, 2023 21:00:00",
+        "live": false,
+        "tba": true
       },
       "god_2": {
         "name": "🗡️🛡️ ARES 🗡️🛡️",
-        "desc": "Was known as the God of War because he represented frenzy of battle and bloodlust. He hates those who hesitate.",
-        "picture": "https://elrondolympiangods.blob.core.windows.net/eog-media/ares.jpg",
-        "link": ""
+        "desc": "",
+        "picture": "https://elrondolympiangods.blob.core.windows.net/eog-media/ares.gif",
+        "link": "",
+        "startDate": "April 15, 2023 21:00:00",
+        "live": false,
+        "tba": true
       },
       "god_3": {
         "name": "🏹 ARTEMIS 🏹",
-        "desc": "The greek goddess gives us courage. She illuminates those places that terrify us and lends us her strength to bring us safely through our fears.",
-        "picture": "https://elrondolympiangods.blob.core.windows.net/eog-media/artemis.jpg",
-        "link": ""
+        "desc": "",
+        "picture": "https://elrondolympiangods.blob.core.windows.net/eog-media/artemis.gif",
+        "link": "",
+        "startDate": "April 15, 2023 21:00:00",
+        "live": false,
+        "tba": true
       },
       "god_4": {
         "name": "⚔️ ATHENA ⚔️",
-        "desc": "The Olympian goddess of wisdom and war and the adored patroness of the city of Athens.",
-        "picture": "https://elrondolympiangods.blob.core.windows.net/eog-media/athena.jpg",
-        "link": ""
+        "desc": "",
+        "picture": "https://elrondolympiangods.blob.core.windows.net/eog-media/athena.gif",
+        "link": "",
+        "startDate": "April 15, 2023 21:00:00",
+        "live": false,
+        "tba": true
       },
       "god_5": {
         "name": "🔥 HADES 🔥",
-        "desc": "Life isn't fair, but death is.",
-        "picture": "https://elrondolympiangods.blob.core.windows.net/eog-media/hades.jpg",
-        "link": ""
+        "desc": "",
+        "picture": "https://elrondolympiangods.blob.core.windows.net/eog-media/hades.gif",
+        "link": "",
+        "startDate": "April 15, 2023 21:00:00",
+        "live": false,
+        "tba": true
       },
       "god_6": {
         "name": "🌞 APOLLO 🌞",
-        "desc": "☄️Zeus’s favorite son, God of light, music and healing. One of his task was to carry the Sun across the sky.",
-        "picture": "https://elrondolympiangods.blob.core.windows.net/eog-media/hapollo.jpg",
-        "link": ""
+        "desc": "",
+        "picture": "https://elrondolympiangods.blob.core.windows.net/eog-media/apollo.gif",
+        "link": "",
+        "startDate": "April 15, 2023 21:00:00",
+        "live": false,
+        "tba": true
       },
       "god_7": {
         "name": "🌹 HERA 🌹",
-        "desc": "The Olympian Queen of the Gods and Zeus's wife is here with another...",
-        "picture": "https://elrondolympiangods.blob.core.windows.net/eog-media/hera.png",
-        "link": ""
+        "desc": "",
+        "picture": "https://elrondolympiangods.blob.core.windows.net/eog-media/hera.gif",
+        "link": "",
+        "startDate": "April 15, 2023 21:00:00",
+        "live": false,
+        "tba": true
       },
       "god_8": {
         "name": "📨 HERMES 📨",
-        "desc": "He was a very popular guy, a real charmer, and there were statues of him all around Athens.",
-        "picture": "https://elrondolympiangods.blob.core.windows.net/eog-media/hermes.jpg",
-        "link": ""
+        "desc": "",
+        "picture": "https://elrondolympiangods.blob.core.windows.net/eog-media/hermes.gif",
+        "link": "",
+        "startDate": "April 15, 2023 21:00:00",
+        "live": false,
+        "tba": true
       },
       "god_9": {
         "name": "🔱 POSEIDON 🔱",
-        "desc": "To some, he was the “Savior of Sailors”, to others the “Averter of Earthquakes”.",
-        "picture": "https://elrondolympiangods.blob.core.windows.net/eog-media/poseidon.jpg",
-        "link": ""
+        "desc": "”.",
+        "picture": "https://elrondolympiangods.blob.core.windows.net/eog-media/poseidon.gif",
+        "link": "",
+        "startDate": "April 15, 2023 21:00:00",
+        "live": false,
+        "tba": true
       },
-      "god_10": {
+      "god_1": {
         "name": "⚡️ ZEUS ⚡️",
-        "desc": "The father of Olympic Gods, turned mid-day into night, hiding the light of the dazzling SUN; and sore fear came upon men.",
-        "picture": "https://elrondolympiangods.blob.core.windows.net/eog-media/zeus.jpg",
-        "link": ""
+        "desc": "",
+        "picture": "https://elrondolympiangods.blob.core.windows.net/eog-media/zeus.gif",
+        "link": "https://trust.market/buy/ElrondOlympianGods",
+        "startDate": "April 29, 2022 21:00:00",
+        "live": false,
+        "tba": true
       }
     }
   },
@@ -119,11 +149,11 @@
     "title": "Utility",
     "card1": {
       "title": "Gaming",
-      "desc": "Our NFTs will help you enter our amazing gaming world."
+      "desc": "Our NFTs will help you enter into our amazing gaming world."
     },
     "card2": {
       "title": "Charity",
-      "desc": "Using our NFTs to help children without any financial support by providing them the necessary devices in order to have acces to a better school education."
+      "desc": "Using our NFTs to help children without any financial support by providing them with the necessary devices in order to have access to a better school education."
     },
     "card3": {
       "title": "Partnerships",
@@ -131,15 +161,15 @@
     },
     "card4": {
       "title": "Future projects",
-      "desc": "This part will be decided based on our members involvement and demand. We will create a Venture Capital Community to get allocation in future crypto projects."
+      "desc": "This part will be decided based on our members involvement and demand. We will create a Venture Capital Community to get allocations in future crypto projects."
     },
     "card5": {
       "title": "Rewards",
-      "desc": "Raffles of lkmex will be distributed weekly to NFTs holders. An amount of EGLD will be staked in liquidity pools."
+      "desc": "Raffles of lkmex and EGLD will be distributed weekly to NFTs holders. An amount of EGLD will be staked in liquidity pools."
     },
     "card6": {
       "title": "Lottery",
-      "desc": "After every collection sold out, a prize consisting of 500$ will be distributed randomly to a lucky NFT holder from the ongoing collection."
+      "desc": "After every collection is sold out, 3 prizes consisting of 1000$ will be distributed randomly to 3 lucky NFT holder from the ongoing collection(200$ after 200 mints/300$ after 500 mints/500$ after sold out of every collection)."
     }
   },
 
@@ -161,7 +191,7 @@
         "content": "The collection will contain 10.000 unique NFTs."
       },
       "question2": {
-        "title": "On which blockchain the collection will be developed?",
+        "title": "On which blockchain will the collection be developed?",
         "content": "The collection will be implemented on Elrond Blockchain."
       },
       "question3": {
@@ -171,15 +201,15 @@
 
       "question4": {
         "title": "What is the mint price?",
-        "content": "First minting price will be 0.4 EGLD for the first 500 buyers."
+        "content": "The price for every collection will start from 0.4 EGLD for the first 500 NFTs. For the next 500 NFTs, the price will reach 0.7 EGLD."
       },
       "question5": {
         "title": "When can I mint them?",
-        "content": "TBA"
+        "content": "The first minting phase will start on 15.04.2022 at 18:00 UTC"
       },
       "question6": {
         "title": "Do you have Giveaways?",
-        "content": "Yes, we prepared a lot of giveaways for you and a lot of surprises. Follow us on our social media channels and accounts."
+        "content": "Yes, we prepared a lot of giveaways for you and a lot of surprises. Follow us on our social media channels and accounts. Check also UTILITY section."
       }
     }
   }

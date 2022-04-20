@@ -1,0 +1,143 @@
+.timer-container {
+    margin-top: 130px;
+}
+
+.timer {
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.timer>div {
+    padding: 10px;
+    background: #444;
+    color: #fff;
+    font-size: 30px;
+    margin-right: 2px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.timer>div>span {
+    text-transform: uppercase;
+    color: #999;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.live {
+    margin-top: 20px;
+    font-size: 20px;
+    color: gold;
+    border: 1px solid gold;
+    padding: 20px;
+    text-align: center;
+}
+
+.color-text-timer {
+    color: gold;
+}
+
+@media (max-width: 1600px) {
+    .timer-container {
+        margin-top: 80px;
+    }
+
+    .timer>div {
+        font-size: 20px;
+    }
+
+    .timer>div>span {
+        font-size: 15px;
+    }
+
+    .live {
+        font-size: 18px;
+        padding: 18px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 1200px) {
+    .timer-container {
+        margin-top: 60px;
+    }
+
+    .timer>div {
+        font-size: 18px;
+    }
+
+    .timer>div>span {
+        font-size: 14px;
+    }
+
+    .live {
+        font-size: 16px;
+        padding: 16px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 1000px) {
+    .timer-container {
+        margin-top: 50px;
+    }
+
+    .timer>div {
+        padding: 5px;
+        font-size: 14px;
+    }
+
+    .timer>div>span {
+        font-size: 9px;
+    }
+
+    .live {
+        font-size: 16px;
+        padding: 16px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 800px) {
+    .timer-container {
+        margin-top: 50px;
+    }
+
+    .timer>div {
+        font-size: 12px;
+    }
+
+    .timer>div>span {
+        font-size: 8px;
+    }
+
+    .live {
+        font-size: 14px;
+        padding: 12px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 500px) {
+    .timer-container {
+        margin-top: 20px;
+    }
+
+    .timer>div {
+        font-size: 12px;
+    }
+
+    .timer>div>span {
+        font-size: 8px;
+    }
+
+    .live {
+        font-size: 12px;
+        padding: 12px;
+        text-align: center;
+    }
+}

@@ -7,13 +7,13 @@ import BuyProduct from "./BuyProduct";
 
 const BuyCarousel = (props) => {
   if (!props.gods) return null;
-  //   const active_button = "active_button";
+  const active_button = "active_button";
   const disable_button = "disable_button";
   return (
     <div className="buy-container">
       <AwesomeSlider bullets={false} cssModule={AwesomeSliderStyles}>
         <div>
-          <BuyProduct god={props.gods.god_1} button={disable_button} />
+          <BuyProduct god={props.gods.god_1} button={active_button} />
         </div>
         <div>
           <BuyProduct god={props.gods.god_2} button={disable_button} />

@@ -1,5 +1,6 @@
 import React from "react";
 import "./BuyProduct.css";
+import CountDownTimer from '../CountDownTimer/CountDownTimer';
 
 const BuyProduct = (props) => {
   if (!props.god) return null;
@@ -9,8 +10,8 @@ const BuyProduct = (props) => {
         <div className="right">
           <img className="god-picture" src={props.god.picture} alt="god" />
           <div className="god-info">
-            <h1>{props.god.name}</h1>
-            <h2>{props.god.desc}</h2>
+            <h1 className="godName">{props.god.name}</h1>
+            <h2><CountDownTimer startDate={new Date(props.god.startDate)} live={props.god.live} tba={props.god.tba}></CountDownTimer></h2>
             <div className="mint-button">
               <a
                 className={props.button}

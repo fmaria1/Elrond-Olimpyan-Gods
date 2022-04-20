@@ -47,6 +47,7 @@
   font-size: 20px;
   padding-right: 5px;
 }
+
 .utility-content .card:nth-child(even) {
   transform: translateY(8px);
 }
